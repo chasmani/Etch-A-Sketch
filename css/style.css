@@ -1,0 +1,52 @@
+html {
+	background-color: #F0F0F0;
+}
+
+#container {
+	width:600px;
+	margin: 0 auto;
+}
+
+#grid {
+	width:400px;
+	height: 400px;
+	margin: 0 auto;
+	border: 5px solid black;
+	box-shadow: 5px 5px 5px #666;
+	background-color:#FFF;
+}
+
+.square {
+	width:100px;
+	height:100px;
+	float:left;
+	
+}
+
+.hover {
+	background-color:blue;
+}
+
+button {
+	margin:20px auto; 
+	width:200px;
+	display:block;
+	background-color: rgb(28, 184, 65);
+	color:#FFF;
+	height: 60px;
+	border: none;
+	border-radius:20px;
+	-moz-border-radius:20px;
+    -webkit-border-radius:20px;
+	font-size:30px;
+	text-shadow: 1px 1px #222;
+}
+
+button:active {
+	background-color: rgb(8, 164, 45);
+}
+
+button:focus {
+	outline: 0;
+	box-shadow: none;
+}
